@@ -1,24 +1,3 @@
-/*import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-
-export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});*/
 
 import React from 'react';
 import PropTypes from 'prop-types';
@@ -46,7 +25,7 @@ function FlashcardStatusBar({ backgroundColor, ...props }) {
 }
 FlashcardStatusBar.propTypes = {
   backgroundColor: PropTypes.string.isRequired
-};
+};//end FlashcardStatusBar
 
 export default class App extends React.Component {
   componentDidMount() {
@@ -65,12 +44,12 @@ export default class App extends React.Component {
       </Provider>
     );
   }
-}
+}//end class App
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#dde'
   }
-});
+});//end styles 
 

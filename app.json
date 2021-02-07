@@ -31,11 +31,11 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "io.jamespriest.mobileflashcards"
+      "bundleIdentifier": "io.Magd.FlashCards-App"
     },
     "android": {
-      "package": "io.jamespriest.mobileflashcards"
+      "package": "io.Magd.FlashCards-App"
     },
-    "githubUrl": "https://github.com/james-priest/mobile-flashcards"
+    "githubUrl": "https://github.com/magdmagd/Udacity-Rnative-MFlashcards-app"
   }
 }
