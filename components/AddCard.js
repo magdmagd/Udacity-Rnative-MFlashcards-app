@@ -80,7 +80,7 @@ export class AddCard extends Component {
       </View>
     );
   }
-}
+}//End AddCard
 
 const styles = StyleSheet.create({
   container: {
@@ -109,7 +109,7 @@ const styles = StyleSheet.create({
     fontSize: 20,
     height: 40
   }
-});
+});//end styles
 
 const mapStateToProps = (state, { navigation }) => {
   const title = navigation.getParam('title', 'undefined');

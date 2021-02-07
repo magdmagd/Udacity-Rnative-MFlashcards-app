@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
     fontSize: 18,
     color: textGray
   }
-});
+});//end styles 
 
 const mapStateToProps = (state, { id }) => {
   const deck = state[id];
@@ -52,6 +52,6 @@ const mapStateToProps = (state, { id }) => {
   return {
     deck
   };
-};
+};//end mapStateToProps
 
 export default connect(mapStateToProps)(Deck);

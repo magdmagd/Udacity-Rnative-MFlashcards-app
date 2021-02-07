@@ -68,7 +68,7 @@ export class AddDeck extends Component {
       </View>
     );
   }
-}
+}//End AddDeck
 
 const styles = StyleSheet.create({
   container: {
@@ -97,7 +97,7 @@ const styles = StyleSheet.create({
     height: 40,
     marginBottom: 20
   }
-});
+});//end styles 
 
 export default connect(
   null,
